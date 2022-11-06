@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        <p>&copy; Slicks slices {new Date().getFullYear()}</p>
+        <p className='center'>&copy; Slicks slices {new Date().getFullYear()}</p>
       </footer>
     </div>
   );

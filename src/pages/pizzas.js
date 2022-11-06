@@ -19,7 +19,7 @@ export default function PizzasPage({ data, pageContext }) {
       />
       <ToppingsFilter activeTopping={pageContext.topping} />
       <PizzaList pizzas={pizza} />
-      <p>{pizza.length} Pizzas</p>;
+      <p>{pizza.length} Pizzas</p>
     </>
   );
 }

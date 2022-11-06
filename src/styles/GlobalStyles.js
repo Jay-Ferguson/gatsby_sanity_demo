@@ -13,9 +13,6 @@ const GlobalStyles = createGlobalStyle`
      --grey:#cbcbcb;
 }
 
-#text {
-display:none ;
-}
 
 html{
      background-image: url(${bg});
