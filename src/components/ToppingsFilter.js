@@ -38,7 +38,6 @@ function countPizzasInToppings(pizzas) {
       const existingTopping = acc[topping.id];
       // increment by 1
       if (existingTopping) {
-        console.log('existing topping', existingTopping.name);
         existingTopping.count += 1;
       } else {
         // else create a new entry in our acc and set it to 1
