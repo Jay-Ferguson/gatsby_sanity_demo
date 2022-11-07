@@ -147,10 +147,6 @@ export async function createPages(params) {
     turnToppingsIntoPages(params),
     turnSlicemastersIntoPages(params),
   ]);
-  // create pagination for slicemasters 1 - 5
-
-  // 2.Toppings
-  // 3.Slicemasters
+  // create pagination for slicemasters 1 - 3
 }
 
-// sourcing nodes
